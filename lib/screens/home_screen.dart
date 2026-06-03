@@ -216,7 +216,7 @@ class _HomeScreenState extends State<HomeScreen> {
               padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 12),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
             ),
-            child: const Text('Try Again', fontWeight: FontWeight.w700),
+            child: const Text('Try Again', style: TextStyle(fontWeight: FontWeight.w700)),
           ),
         ],
       ),
